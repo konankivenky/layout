@@ -1,0 +1,226 @@
+<DOCTYPE html>
+   <html>
+      <head>
+			<title>cameras</title>
+	<style>
+	.main-container{
+		margin:0px;
+		padding:0px;
+		}
+	.header-container{
+		background:pink;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		padding:5px;
+		position:fixed;
+		top:0px;
+		width:100%;
+			}
+	.header-container>div{
+			color:white;
+			font-size:30px;
+			text-shadow:5px 5px 5px black;
+				}
+	.drop-dwon{
+		position:relative;
+		margin-left:15px;
+			}
+	.drop-down>img{		
+		width:120px;
+		}
+	.list-items{
+		list-style:none;
+		position:absolute;
+		margin-top:10px;
+		color:black;
+		margin-left:10px;
+		background:red;
+		font-size:15px;
+		
+	}
+
+	.border-container{
+		padding:0px;
+		margin:0px;
+			}
+	.content{
+		display:flex;
+		flex-wrap:wrap;
+		float:left;
+		height:700px;
+		margin-top:130px;
+
+		
+		}
+	
+	.layout1{
+		width:300px;
+		height:500px;
+		border:1px solid black;
+		margin:5px;
+		border-shadwo:5px 5px 5px white;
+		}
+	.layout2{
+		width:660px;
+		height:500px;
+		border:1px solid black;
+		margin:5px;
+		}
+	.layout3{
+		width:300px;
+		height:500px;
+		border:1px solid black;
+		margin:5px;
+		}
+	.layout1,layout2,layout3{
+		margin-left:15px;
+			}
+	.layout1>ul{
+		list-style:none;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+			}
+	.layout1>ul>li{
+		line-height:40px;
+			}
+	.layout1>ul>li>a{
+		text-decoration:none;
+		font-size:20px;
+
+			}
+ 	.menu-container{
+			width:208px;
+			height:238px;
+			border:1px solid black;
+			margin:5px;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:center;
+			align-items:center;
+			float:left;
+
+			}
+		.menu-container>div{
+			dispaly:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			padding:5px;
+			text-align:center;
+				}
+		.menu-container>div>img{
+			width:190px;
+				}
+		.layout3>div{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			}
+		.layout3>div>img{
+				width:290px;
+				height:450px;
+				}
+	footer {
+		position:fixed;
+		bottom:0px;
+		text-align:center;
+		background:green;
+		width:100%;
+		}
+	@media only screen and (max-width:1100px) and (min-width:1050px){
+		body{
+			background:gary;
+			}
+		}
+	@media only screen and (max-width:900px){
+		body{
+			background:tomato;
+			}
+		}
+	@media only screen and (max-width:600px){
+		body{
+			background:slateblue;
+			display:none;
+			}
+		}
+
+	</style>
+	</head>
+	<body>
+	<div class="main-container">
+		<div class="header-container">
+			<div>VBM INFO TECH</div>
+			<div class="drop-down">
+				<img src="flower.png">
+				<ul class="list-items">
+					<li>viwe</li>
+					<li>feedback</li>
+					<li>help</li>
+					<li>setting</li>
+				</ul>		
+			</div>
+		</div>
+		<div class="body-container">
+		<div class="content">
+			<div class="layout1">
+				<ul>
+					<li><a href="mobiles.html">mobiles</a></li>
+					<li><a href="laptops.html">laptops</a></li>
+					<li><a href="cameras.html">cameras</a></li>
+				</ul>
+			</div>
+			<div class="layout2">
+				<div class="menu-container">
+					<div>
+						<img src="image14.jpg">
+						
+					</div>
+				</div>
+				<div class="menu-container">
+					<div>
+						<img src="image15.jpg">
+						
+					</div>
+				</div>
+				<div class="menu-container">
+					<div> 
+						<img src="image16.jpg">
+						
+					</div>
+				</div>
+				<div class="menu-container">
+					<div>
+						<img src="image17.jpg">
+						
+					</div>
+				</div>
+				<div class="menu-container">
+					<div>
+						<img src="image18.jpg">
+						
+					</div>
+				</div>
+				<div class="menu-container">
+					<div>
+						<img src="image19.jpg">
+						
+					</div>
+				</div>
+			</div>
+			<div class="layout3">
+				<div>
+					<img src="image7.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+		<footer>
+			<p>all copy rights@2019</p>
+		</footer>
+
+	</div>
+    </body>
+</html>
